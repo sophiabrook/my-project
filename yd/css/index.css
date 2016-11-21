@@ -1,0 +1,99 @@
+@charset "utf-8";
+/*
+* Site:远东—孕期口腔保健wap专题—王石策划—梁立坤设计
+* Author:彭星
+* Date:2016/05/26
+*/
+br{line-height:0;}
+.container{max-width:640px;min-width:320px;margin:0 auto;overflow:hidden;}
+.container img{width:100%;}
+.bgImg{background:url(../img/img.png) no-repeat;background-size:200px 200px;display:inline-block;}
+.item{padding:0 10px;overflow:hidden;}
+
+.itemTie{text-align:center;line-height:15px;font-size:12px;font-weight:bold;color:#247f1d;padding:10px 0;}
+.itemTie small{line-height:15px;font-size:6px;color:#b5b4b4;font-weight:normal;display:block;}
+
+.itemTie.f16{font-size:16px;}
+.itemTie.f18{font-size:18px;}
+.itemTie.f11{font-size:11px;}
+.itemTit{line-height:50px;font-size:16px;color:#474747;position:relative;padding-left:13px;}
+.itemTit i{width:5px;height:16px;background-color:#247f1d;display:block;position:absolute;left:0;top:50%;margin-top:-8px;}
+
+.banner{line-height:0;overflow:hidden;position:relative;}
+.banner .zixun,.banner .yuyue{width:73px;height:25px;text-align:center;line-height:25px;font-size:12px;color:#fff;padding-right:10px;box-shadow:#dad6cc 2px 2px 3px;display:block;position:absolute;top:71%;left:50%;}
+.banner .zixun i,.banner .yuyue i{width:12px;height:12px;background-position:0 0;position:absolute;right:5px;top:50%;margin-top:-6px;}
+.banner .zixun{background-color:#ff7e00;margin-left:-83px;}
+.banner .yuyue{background-color:#247f1d;margin-left:10px;}
+.adr{line-height:20px;}
+.adr a{font-size:12px;color:#222;}
+.adr i{padding:0 5px;color:#222;}
+
+
+.f1Box{padding-bottom:10px;}
+.f1BoxList{overflow:hidden;}
+.f1BoxList li{float:left;width:50%;}
+.f1BoxList li:nth-child(2n-1) dl{padding-right:5px;}
+.f1BoxList li:nth-child(2n) dl{padding-left:5px;}
+.f1BoxList dt{line-height:0;border:#f4f4f4 solid 3px;}
+.f1BoxList dd{text-align:center;line-height:25px;font-size:10px;color:#222;font-weight:bold;padding-bottom:5px;}
+.f1Box p{line-height:22px;font-size:12px;color:#4d4d4d;}
+.f1Box p span{font-weight:bold;}
+.f1Box .zixun{width:125px;height:25px;text-align:center;line-height:25px;font-size:12px;color:#fff;padding-right:10px;box-shadow:#dad6cc 2px 2px 3px;display:block;position:relative;margin:0 auto;background-color:#fe720d;}
+.f1Box .zixun i{width:13px;height:13px;background-position:-14px 0;position:absolute;right:5px;top:50%;margin-top:-6px;}
+.f2Box{padding-bottom:10px;}
+.f2Box p{line-height:23px;font-size:12px;color:#4d4d4d;border:#dbdbdb solid 1px;padding:8px;position:relative;margin-bottom:20px;}
+.f2Box p i{width:55px;height:26px;background-position:0 -15px;position:absolute;right:3px;bottom:3px;}
+.f2BoxList{overflow:hidden;}
+.f2BoxList li{float:left;width:50%;}
+.f2BoxList li:nth-child(2n-1) dl{padding-right:5px;}
+.f2BoxList li:nth-child(2n) dl{padding-left:5px;}
+.f2BoxList dt{line-height:0;border:#f4f4f4 solid 3px;}
+.f2BoxList dd{text-align:center;height:30px;line-height:15px;font-size:12px;color:#247f1d;font-weight:bold;padding:5px 0 10px;}
+.f2Box .yuyue{width:83px;height:25px;text-align:center;line-height:25px;font-size:12px;color:#fff;padding-right:10px;box-shadow:#dad6cc 2px 2px 3px;display:block;position:relative;margin:0 auto;background-color:#fe720d;}
+.f2Box .yuyue i{width:13px;height:13px;background-position:-14px 0;position:absolute;right:5px;top:50%;margin-top:-6px;}
+
+.f3Box ul{padding-bottom:10px;}
+.f3Box li{line-height:23px;font-size:12px;color:#4d4d4d;}
+.f3Box li span{font-weight:bold;color:#247f1d;}
+.f3Box img{border:#d9d9d9 solid 1px;}
+.f4Box .tab{text-align:center;overflow:hidden;}
+.f4Box .tab span{float:left;width:33.33%;display:inline-block;}
+.f4Box .tab span em{height:20px;text-align:center;line-height:20px;font-size:12px;color:#4d4d4d;background-color:#eee;display:block;}
+.f4Box .tab span:nth-child(1) em{margin-right:4px;}
+.f4Box .tab span:nth-child(3) em{margin:0 3px;}
+.f4Box .tab span:nth-child(3) em{margin-left:4px;}
+.f4Box .tab span.active em{background-color:#247f1d;color:#fff;font-weight:bold;}
+
+.f4Box .tabCon dl{padding-bottom:11px;}
+.f4Box .tabCon dt{line-height:22px;font-size:11px;font-weight:bold;color:#247f1d;}
+.f4Box .tabCon dd,.f4Box .tabCon dd li{line-height:22px;font-size:11px;color:#4d4d4d;}
+.f4Box .btn{text-align:center;}
+.f4Box .btn a{width:73px;height:25px;text-align:center;line-height:25px;font-size:12px;color:#fff;background-color:#ff7e00;padding-right:10px;margin-right:15px;box-shadow:#dad6cc 2px 2px 3px;position:relative;display:inline-block;}
+.f4Box .btn a i{width:13px;height:13px;background-position:-14px 0;position:absolute;right:5px;top:50%;margin-top:-6px;}
+.f4Box .btn a:nth-child(2){background-color:#247f1d;margin-right:0;}
+
+.f5Box{padding-bottom:40px;}
+.f5Box li{display:none;}
+.f5Box li:nth-child(1){display:block;}
+.f5Box dl{min-height:123px;padding-left:105px;position:relative;}
+.f5Box dt{border:#f1f0ed solid 1px;position:absolute;left:0;top:0;}
+.f5Box dt,.f5Box dt img{width:101px;height:123px;}
+.f5Box dd h3{line-height:25px;font-size:18px;color:#247f1d;font-weight:normal;}
+.f5Box dd h3 a{color:#247f1d;}
+.f5Box dd h3 small{font-size:12px;color:#4d4d4d;padding-left:10px;}
+.f5Box dd p{line-height:18px;color:#4d4d4d;}
+.f5Box dd p a{color:#fe720d;}
+.f5Box dd .btn{display:block;position:absolute;left:105px;bottom:0;}
+.f5Box dd .btn a{float:left;width:73px;height:25px;text-align:center;line-height:25px;font-size:12px;color:#fff;background-color:#ff7e00;padding-right:10px;margin-right:15px;box-shadow:#dad6cc 2px 2px 3px;position:relative;display:inline-block;}
+.f5Box dd .btn a i{width:13px;height:13px;background-position:-14px 0;position:absolute;right:5px;top:50%;margin-top:-6px;}
+.f5Box dd .btn a:nth-child(2){background-color:#247f1d;margin-right:0;}
+.f5Box .bajs-easy-slider-pagination{width:100%;text-align:center;padding-top:10px;}
+.f5Box .bajs-easy-slider-pagination a{width:9px;height:9px;line-height:50px;background-color:#b0b0b0;border-radius:50%;overflow:hidden;display:inline-block;margin:0 4px;}
+.f5Box .bajs-easy-slider-pagination a.active{background-color:#626262;}
+.f6Box{padding-bottom:10px;border-bottom:#e1e1e1 solid 1px;}
+
+.f7Box{padding-bottom:10px;border-bottom:#e1e1e1 solid 1px;}
+.f7Box li{line-height:30px;font-size:12px;color:#656565;border-bottom:#bcbcbc dashed 1px;position:relative;padding-left:10px;}
+.f7Box li a{color:#656565;}
+.f7Box li i{width:4px;height:4px;background-color:#247f1d;border-radius:50%;display:block;position:absolute;left:0;top:50%;margin-top:-2px;}
+.f7Box li:last-child{border-bottom:0;}
