@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*
+* Site:肠胃病调理wap五洲国医堂唐海滨+秦玉梁
+* Author:彭星
+* Date:2016/04/26
+*/
+.bgImg{background:url(../img/img.png) no-repeat;background-size:250px 250px;display:inline-block;}
+.container{min-width:320px;max-width:640px;margin:0 auto;background-color:#faf1e7;overflow:hidden;position:relative;}
+.container img{width:100%;}
+.item{padding:20px 10px 0;background:url(../img/bg_04.jpg) 0 0 repeat-x;background-size:15px 9px;}
+.itemTie{padding-top:4px;font-weight:normal;border-bottom:#8a292d solid 1px;position:relative;margin-bottom:15px;}
+.itemTie span{height:21px;line-height:21px;font-size:12px;color:#fef2e4;background-color:#811a1f;display:inline-block;padding:0 5px;}
+.itemTie em{height:25px;line-height:25px;font-size:12px;color:#333;display:inline-block;position:absolute;right:0;bottom:0;padding-right:19px;}
+.itemTie em i{width:0;height:0;border-left:#8a292d solid 10px;border-top:transparent solid 10px;border-bottom:transparent solid 10px;transition:all .35s ease-in-out;position:absolute;right:0;top:50%;margin-top:-10px;}
+.itemTie.active em i{transform:rotate(90deg);}
+.banner li{line-height:0;position:relative;display:none;}
+.banner li:nth-child(1){display:block;}
+.banner li a.zixun{width:95px;height:29px;text-align:center;line-height:29px;font-size:15px;color:#fff;background-color:#830812;border-radius:5px;position:absolute;left:23%;top:69%;}
+.banner .bajs-easy-slider-pagination{width:100%;text-align:center;position:absolute;left:0;bottom:5px;}
+.banner .bajs-easy-slider-pagination a{width:11px;height:11px;line-height:50px;background-color:#a1542f;display:inline-block;border-radius:50%;overflow:hidden;margin:0 3px;}
+.banner .bajs-easy-slider-pagination a.active{background-color:#811a1f;}
+.f1Tie{height:33px;line-height:33px;background-color:#e0d9cf;padding:0 10px;}
+.f1Tie span,.f1Tie a{float:left;line-height:33px;font-size:10px;color:#333;}
+.f1Tie a{margin-right:10px;}
+.f1Box{}
+.f1Box p{line-height:18px;color:#000;}
+.f1Box span{width:229px;height:26px;text-align:center;line-height:26px;background:url(../img/bg_03.png) repeat-x;background-size:auto 26px;display:block;margin:13px auto 13px;position:relative;}
+.f1Box span i{width:11px;height:26px;position:absolute;top:0px;}
+.f1Box span i.fl{background:url(../img/bg_01.png) no-repeat;background-size:11px 26px;left:0;}
+.f1Box span i.fr{background:url(../img/bg_02.png) no-repeat;background-size:11px 26px;right:0;}
+.f1Box a.zixun{width:152px;height:36px;text-align:center;line-height:36px;font-weight:bold;color:#785102;background:linear-gradient(#e1b962,#bd8320);border-radius:5px;border:#785102 solid 1px;display:block;margin:0 auto 28px;}
+
+.f2Box{width:298px;margin:0 auto;border:#c5beb6 solid 1px;}
+.f2Box h3{line-height:30px;color:#811a1f;font-size:12px;font-weight:bold;padding:0 5px;border-bottom:#c5beb6 solid 1px;}
+.f2Box dt,.f2Box dd{line-height:30px;color:#333;border-bottom:#c5beb6 solid 1px;padding:0 5px;}
+.f2Box dt{position:relative;}
+.f2Box dt span{position:absolute;left:135px;bottom:0;}
+.f2Box dt em{width:23px;height:23px;text-align:center;line-height:23px;color:#faf1e7;background-color:#811a1f;border-radius:50%;display:inline-block;margin-right:20px;}
+.f2Box dd{padding-left:25px;}
+.f2Box .btn{text-align:center;line-height:65px;display:block;}
+.f2Box a.zixun{width:152px;height:36px;text-align:center;line-height:36px;font-weight:bold;color:#785102;background:linear-gradient(#e1b962,#bd8320);border-radius:5px;border:#785102 solid 1px;display:inline-block;margin-left:5px;}
+.f2BoxCon{width:298px;margin:0 auto;border:#c5beb6 solid 1px;border-top:0;overflow:hidden;margin-bottom:15px;}
+.f2BoxCon h3{line-height:30px;color:#811a1f;font-size:12px;font-weight:bold;padding:0 5px;border-bottom:#c5beb6 solid 1px;}
+
+.f2BoxList{position:relative;}
+.f2BoxL{float:left;width:120px;border-right:#c5beb6 solid 1px;}
+.f2BoxL dl{padding:0 5px 5px;}
+.f2BoxL dt{line-height:15px;font-size:10px;color:#811a1f;}
+.f2BoxL dd{line-height:15px;font-size:10px;color:#333;padding-left:15px;}
+.f2BoxR{padding-left:120px;}
+.f2BoxR h4{line-height:27px;text-align:center;font-size:12px;font-weight:bold;color:#811a1f;}
+.f2BoxR p{width:161px;height:93px;text-align:center;line-height:21px;background:url(../img/bg_06.png) no-repeat;background-size:161px 103px;padding-top:10px;margin:0 auto;}
+.f2BoxR dl{padding:0 5px;}
+.f2BoxR dt{line-height:16px;font-size:9px;font-weight:bold;color:#000;}
+.f2BoxR li{line-height:16px;font-size:9px;color:#000;}
+.f2BoxR a.zixun{width:122px;height:27px;text-align:center;line-height:27px;font-weight:bold;color:#785102;background:linear-gradient(#e1b962,#bd8320);border-radius:5px;border:#785102 solid 1px;display:block;margin:0 auto;}
+
+.f3Box{}
+.f3Box dl{width:300px;margin:0 auto;overflow:hidden;position:relative;}
+.f3Box dt{float:left;width:124px;line-height:0;}
+.f3Box dt img{width:118px;height:178px;padding:2px;border:#c4bdb5 solid 1px;background-color:#fff;margin-bottom:2px;}
+.f3Box dt a.zixun{height:37px;line-height:37px;text-align:center;line-height:37px;font-size:12px;font-weight:bold;color:#fff;background-color:#821a1f;border-radius:5px;display:block;}
+.f3Box dd{float:right;width:168px;padding-top:5px;}
+.f3Box dd h3{line-height:25px;font-size:12px;font-weight:normal;}
+.f3Box dd h3 span{font-size:17px;font-weight:bold;color:#811a1f;margin-right:5px;}
+.f3Box dd p{line-height:20px;color:#090807;padding-bottom:5px;}
+.f3Box dd li{line-height:0;padding-bottom:10px;}
+.f3Box dd li,.f3Box dd li img{width:118px;}
+
+.f4Box a.zixun{width:124px;height:37px;line-height:37px;text-align:center;line-height:37px;font-size:12px;font-weight:bold;color:#fff;background-color:#821a1f;border-radius:5px;display:block;margin:0 auto 30px;}
+.f5Box h3{text-align:center;}
+.f5Box h3 a.zixun{width:126px;height:37px;line-height:37px;text-align:center;line-height:37px;font-size:12px;font-weight:bold;color:#fff;background-color:#821a1f;border-radius:5px;display:block;margin:0 auto;}
+
+.f5Box{padding-bottom:15px;}
+.f5Box h3{padding:15px 0;position:relative;}
+.f5Box h3 span{width:43px;height:43px;text-align:center;line-height:43px;font-size:18px;font-weight:bold;color:#a1a1a1;border:#a1a1a1 solid 1px;border-radius:50%;
+    display:inline-block;position:absolute;top:50%;margin-top:-21px;left:50%;}
+.f5Box h3 span:nth-child(1){margin-left:-138px;}
+.f5Box h3 span:nth-child(2){margin-left:75px;}
+.f5Box h3 span i{width:15px;height:34px;background:url(../img/bg_07.png) no-repeat;background-size:32px 100px;display:block;position:absolute;right:-21px;top:50%;margin-top:-17px;transition:all .35s ease-in-out;}
+.f5Box h3 span:nth-child(2) i{background-position:-17px -36px;}
+.f5Box h3 span.active{border:#b47372 solid 1px;color:#811a1f;}
+.f5Box h3 span.active i{background-position:0px -36px;}
+.f5Box h3 span:nth-child(2).active i{background-position:-17px 0;}
+.f5Box dl{border:#afa8a1 solid 1px;border-radius:5px;padding:5px;}
+.f5Box dt{font-size:15px;text-align:center;}
+.f5Box dd li{line-height:20px;font-size:12px;color:#333;padding-left:55px;position:relative;}
+.f5Box dd li span{line-height:20px;font-weight:bold;position:absolute;left:0;top:0;}
+
+.f6Box p{line-height:20px;color:#333;padding-bottom:10px;}
+.f6BoxList{overflow:hidden;}
+.f6BoxList li{border-bottom:#a29e99 dashed 1px;margin-bottom:13px;overflow:hidden;}
+.f6BoxList li:last-child{border-bottom:0;}
+.f6BoxList dl{float:left;width:33.33%}
+.f6BoxList dt{line-height:0;border-radius:50%;overflow:hidden;margin:0 8px;}
+.f6BoxList dd{text-align:center;line-height:26px;color:#333;}
+.f6Box a.zixun{width:152px;height:36px;text-align:center;line-height:36px;font-weight:bold;color:#785102;background:linear-gradient(#e1b962,#bd8320);border-radius:5px;border:#785102 solid 1px;display:block;margin:0 auto 15px;}
+
+.f7Box ul li{width:187px;height:35px;text-align:center;line-height:35px;color:#333;background:url(../img/bg_05.png) no-repeat;background-size:100% 35px;margin:0 auto 15px;}
+.f7Box ul li a{display:block;color:#333;}
+
+.f8Box{}
+.f8Box dt{margin:0 auto;border:#cbc4bc solid 1px;}
+.f8Box dt,.f8Box dt img{width:200px;height:150px;}
+.f8Box dd{text-align:center;line-height:30px;color:#333;}
+.f8Box .prev-btn,.f8Box .next-btn{width:15px;height:30px;background:url(../img/btn.png) no-repeat;background-size:32px 30px;display:block;position:absolute;top:50%;margin-top:-15px;}
+.f8Box .prev-btn{background-position:0 0;left:0;}
+.f8Box .next-btn{background-position:-17px 0;right:0;}
